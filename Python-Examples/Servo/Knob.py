@@ -4,7 +4,7 @@
 Knob.py
 
 This example shows how to use a servo motor attached
-to a PWM pin through a potenciometer.
+to a PWM pin through a potentiometer.
 
 This example code is in the public domain.
 
@@ -27,7 +27,7 @@ myServo = Servo("First Servo")
 # Attaches the servo to pin 3 in Arduino Expansion board
 myServo.attach(3)
 
-# Attaches the potenciometer to analog input A0
+# Attaches the potentiometer to analog input A0
 # in Arduino Expansion Board
 pot = mraa.Aio(0)
 pot.setBit(12)
@@ -43,7 +43,7 @@ print "Move the knob."
 print ""
 
 try:
-    # Move the servo using the potenciometer
+    # Move the servo using the potentiometer
     while True:
         # Read the analog value from pot
         valuePot = pot.read()
