@@ -20,7 +20,7 @@ import time
 import mraa
 
 spi= mraa.Spi(0)
-buff = bytearray('\x02\xee\x10')
+#buff = bytearray('\x02\xee\x10')
 try:
         while True:
                 spi.writeByte(0x12)
