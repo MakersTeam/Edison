@@ -14,6 +14,7 @@ Revision History
 Author			  Date			  Description
 ------------------------------------------------
 Carlos Mata			1-29-2015		Example created
+Carlos Mata                     3-18-2015               Last Modification
 """
 
 import time
@@ -25,6 +26,6 @@ try:
         while True:
                 spi.writeByte(0x12)
                 spi.writeByte(0x35)
-                spi.write(buff)
+                #spi.write(buff)
 except KeyboardInterrupt:
         print ""
