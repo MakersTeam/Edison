@@ -47,6 +47,7 @@ Revision History
     Author		   Date		  Description
 ----------------------------------------------------------
 Diego Villalobos	02-12-2015	Library created
+Diego Villalobos	04-22-2015	Bug related with the period has been corrected
 
 """
 
@@ -130,7 +131,7 @@ class Servo:
         # Configure the selected pin as PWM output.
         if self._pinAttached != None:
             self._pwm = mraa.Pwm(self._pinAttached)
-            self._pwm.period = self._period
+            self._pwm.period(self._period)
             self._pwm.enable(True)
             self._pwm.write((self._uSecs/1000000.0)/self._period)
 
@@ -241,6 +242,7 @@ class Servo:
         # Sets frequency and then period.
         self._frequency = frequency
         self._period = round(1.0/frequency,4)
+        self._pwm.period(self._period)
 
     def setPeriod(self, period):
         """
@@ -252,4 +254,5 @@ class Servo:
 
         # Sets period and then frequency
         self._period = period
+        self._pwm.period(self._period)
         self._frequency = round(1/period,4)
