@@ -4,6 +4,10 @@ This repository contains examples to use with Intel® Edison Compute Module and 
 
 The current examples available are:
 
+### Arduino examples
+
+* [StringToFloat.ino](./Arduino-Examples/StringToFloat.ino)
+
 ### JavaScript examples
 
 * [Fade.js](./JavaScript-Examples/Fade.js)
