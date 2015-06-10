@@ -2,8 +2,11 @@
 
 """
 SendSimpleText.py
+
 This example shows how to send a simple text by email.
+
 This example code is in the public domain.
+
 Revision History
 ----------------------------------------------------------
     Author		   Date		  Description
