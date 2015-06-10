@@ -2,8 +2,11 @@
 
 """
 SendHTMLText.py
+
 This example shows how to send a text in HTML and plain format by email.
+
 This example code is in the public domain.
+
 Revision History
 ----------------------------------------------------------
     Author		   Date		  Description
