@@ -1,6 +1,6 @@
-# Makers Examples Repository
+# Edison Repository
 
-This repository contains examples to use with Intel® Edison Compute Module and the Arduino Expansion Board/Breakout Board.
+This repository contains packages and example codes to use with Intel® Edison Compute Module and the Arduino Expansion Board/Breakout Board.
 
 The current examples available are:
 
