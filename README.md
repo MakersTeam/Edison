@@ -36,3 +36,11 @@ The current examples available are:
 * [Servo.py (Servo library)](./Python-Examples/Servo/Servo.py)
 * [Sweep.py](./Python-Examples/Servo/Sweep.py)
 * [Knob.py](./Python-Examples/Servo/Knob.py)
+
+##### USB
+
+* [USBCheckStatus.py](./Python-Examples/USB/USBCheckStatus.py)
+
+##### WiFi
+
+* [ScanMAC.py](./Python-Examples/WiFi/ScanMAC.py)
