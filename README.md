@@ -7,6 +7,7 @@ The current examples available are:
 ### Arduino examples
 
 * [StringToFloat.ino](./Arduino-Examples/StringToFloat.ino)
+* [setPWM_Edison.ino](./Arduino-Examples/setPWM_Edison.ino)
 
 ### JavaScript examples
 
