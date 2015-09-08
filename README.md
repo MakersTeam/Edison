@@ -13,6 +13,8 @@ The current examples available are:
 
 * [Fade.js](./JavaScript-Examples/Fade.js)
 * [SendImagetoWS.js](./JavaScript-Examples/SendImagetoWS.js)
+* [NewFilePerDate.js](./JavaScript-Examples/NewFilePerDate.js)
+* [uart_to_xls.js](./JavaScript-Examples/uart_to_xls.js)
 
 ### Python examples
 
