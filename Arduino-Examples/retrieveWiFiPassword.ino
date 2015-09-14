@@ -1,5 +1,5 @@
 /*
-retrieveWiFiPassword.ino - Shows the WiFi AP password for 3 seconds
+retrieveWiFiPassword.ino - Shows the WiFi AP password within 3 seconds
 
 This example shows the WiFi AP password for 3 seconds in case it has been forgotten.
 This example code was originally written by the user Intel_Raad and shared it in the 
