@@ -8,6 +8,8 @@ The current examples available are:
 
 * [StringToFloat.ino](./Arduino-Examples/StringToFloat.ino)
 * [setPWM_Edison.ino](./Arduino-Examples/setPWM_Edison.ino)
+* [retrieveWiFiPassword.ino](./Arduino-Examples/retrieveWiFiPassword.ino)
+* [deletePassword.ino](./Arduino-Examples/deletePassword.ino)
 
 ### JavaScript examples
 
