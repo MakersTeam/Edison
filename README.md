@@ -20,6 +20,8 @@ The current examples available are:
 
 ### Python examples
 
+* [BoardDetector.py](./Python-Examples/BoardDetector.py)
+
 ##### Basics
 
 * [AnalogReadSerial.py](./Python-Examples/Basics/AnalogReadSerial.py)
