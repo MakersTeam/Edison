@@ -8,7 +8,8 @@ Revision History
 ------------------------------------------------
 Author			  Date			  Description
 ------------------------------------------------
-Pedro Mora	 9-3-2015		 Script created 
+Pedro Mora	     9-3-2015		 Script created
+Pedro Mora       1-5-2016        Issue in the for cluster resolved
 */
 var fs = require('fs');
 var dat = new Date();
