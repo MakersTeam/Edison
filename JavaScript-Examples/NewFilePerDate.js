@@ -26,30 +26,26 @@ var gen = false;
 var mf = 0;
 for(var c = 0; c <= fillen; c++)
 {
-	if(gen == true)
-	{
-		if(mf < ac[bc.length-1])
-		{
-			mf = parseInt(ac[(bc.length - 1)]);
-			gen = false;
-		}
-	}
-	ac = files[c].split('');
-	for(var c1 = 0; c1 < (bc.length - 1); c1++)
-	{
-		if(ac.length != bc.length)
-			break;
-		if(ac[c1] != bc[c1])
-			break;			
-		else 
-		{
-			if(ac[bc.length-2] == bc[(bc.length - 2)])
-			{
-				gen = true;
-				break;
-			}
-		}
-	}
+    if(gen == true)
+        if(mf < ac[bc.length-1])
+        {
+            mf = parseInt(ac[(bc.length - 1)]);
+            gen = false;
+        }
+    ac = files[c].split('');
+    for(var c1 = 0; c1 < (bc.length - 1); c1++)
+    {
+        if(ac.length != bc.length)
+            break;
+        if(ac[c1] != bc[c1])
+            break;
+        else
+            if(ac[bc.length-2] == bc[(bc.length - 2)])
+            {
+                gen = true;
+                break;
+            }
+    }
 }
 var fnam = rd + "_" + (mf+1);
 var ws = fs.createWriteStream(fnam);
