@@ -24,7 +24,7 @@ fn = rd + "_1";
 var bc = fn.split('');
 var gen = false;
 var mf = 0;
-for(var c = 0; c < fillen; c++)
+for(var c = 0; c <= fillen; c++)
 {
 	if(gen == true)
 	{
